@@ -1,6 +1,5 @@
 .img-fluid {
     border-radius: 100px;
-    /* Thay đổi giá trị này để điều chỉnh độ bo tròn */
     height: 150px;
 }
 
@@ -9,13 +8,18 @@
     font-weight: bold;
 }
 
-
+.cu {
+    text-align: center;
+    padding-top: 12px;
+    padding-right: 0px;
+}
 
 .search-bar input {
 
     border: 1px solid #ccc;
     border-radius: 20px;
-    padding: 10px;
+    padding: 25px;
+    padding-left: 30px;
 }
 
 .banner {
@@ -51,4 +55,23 @@
     .grid-desktop {
         display: none;
     }
+}
+
+.position-relative {
+    position: relative;
+}
+
+.search-icon {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.search-select {
+    margin-top: 10px;
+    padding-right: 0px;
+    padding-left: 2px;
+
 }

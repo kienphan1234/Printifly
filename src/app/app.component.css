@@ -1,0 +1,26 @@
+#topPanel {
+  top: 0;
+  left: 0;
+  right: 0;
+}
+#leftPanel {
+  top: 0;
+  bottom: 0;
+}
+#bottomPanel {
+  bottom: 0;
+}
+
+#topPanel,
+#bottomPanel,
+#leftPanel {
+  position: fixed;
+  z-index: 20;
+}
+
+.content-container {
+  padding-top: 71px;
+  padding-left: 0px;
+  padding-bottom: 0px;
+  margin: 0;
+}

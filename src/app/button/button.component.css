@@ -1,0 +1,47 @@
+.button {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    border: 1px solid transparent;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 1em;
+    font-weight: 500;
+    cursor: pointer;
+    overflow: hidden;
+    transition: .15s;
+    vertical-align: top;
+    line-height: 1.5rem;
+    font-family: inherit;
+    white-space: nowrap;
+    outline: none;
+}
+
+.primary {
+    color: #fff;
+    background-color: #29ab51;
+}
+
+.button.medium {
+    padding: calc(.5rem - 1px) calc(1.5rem - 1px);
+    height: 40px;
+}
+
+.button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #17262b26;
+    opacity: 0;
+    transition: opacity .15s;
+    border-radius: inherit;
+}
+
+.button .custom-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

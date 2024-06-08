@@ -1,0 +1,24 @@
+small, .small-bold, .text-xs {
+    font-size: .875em;
+    line-height: 1.25rem;
+}
+
+.badge {
+    display: inline-flex;
+    align-items: center;
+    height: 24px;
+    padding: calc(.125rem - 1px) .5rem;
+    border-radius: 3px;
+    white-space: nowrap;
+    gap: .25rem;
+}
+
+.gray {
+    border: 1px solid #686f71;
+    background-color: #f7f7f7;
+    color: #485256;
+}
+
+.heading .gray {
+    background-color: #fff;
+}

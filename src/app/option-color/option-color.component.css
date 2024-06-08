@@ -1,0 +1,21 @@
+ol,
+ul {
+  list-style: none;
+}
+
+.group {
+  display: flex;
+  position: absolute;
+  inset: 0;
+}
+
+li {
+  list-style: inherit;
+}
+
+.color {
+  flex-grow: 1;
+  background-size: auto 100% !important;
+  background-color: rgb(28, 27, 28) !important;
+  background: url(https://images.printify.com/api/file/5853fed0ce46f30f8328213c);
+}

@@ -1,0 +1,19 @@
+.link {
+    font-family: inherit;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    transition: color .15s ease;
+}
+
+.primary,.material-icons, .primary:focus {
+    color: #29ab51;
+}
+
+.button {
+    display: inline-block;
+}
+
+.button-start-designing, .button {
+    width: 100%;
+}

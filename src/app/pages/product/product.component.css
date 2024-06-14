@@ -27,9 +27,11 @@
     background-size: cover;
     background-position: center;
     color: white;
-    padding: 100px 0;
+    padding: 50px 0;
     text-align: left;
     margin-bottom: 50px;
+    width: 1104px;
+    height: 346px;
 }
 
 .banner-overlay {
@@ -49,6 +51,7 @@
     .carousel-mobile {
         display: none;
     }
+
 }
 
 @media (max-width: 575.98px) {
@@ -74,4 +77,54 @@
     padding-right: 0px;
     padding-left: 2px;
 
+}
+
+.na {
+    border-bottom: 1px solid #e3e4e5;
+    background-color: #fff;
+    display: block;
+}
+
+.custom-border {
+    border: 1px solid #000;
+    border-radius: 5px;
+    height: 50px;
+}
+
+.custom-button {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.img-fluid {
+    width: 100%;
+    display: block;
+}
+
+.new-button {
+    position: absolute;
+    bottom: 1px;
+    /* Adjust the position as needed */
+    left: 50%;
+    /* Center horizontally */
+    transform: translateX(-50%);
+    z-index: 1;
+    padding: 0.5rem 1rem;
+    /* Adjust button padding */
+    font-size: 0.75rem;
+    /* Adjust button font size */
+    color: #1e5180;
+    background-color: #e1eff9;
+}
+
+.p1 {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 10px
 }

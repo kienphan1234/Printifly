@@ -1,0 +1,37 @@
+.but1 {
+    border: 1px solid #e3e4e5;
+    background-color: #f7f7f7;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.but2 {
+    border: 1px solid #17262b;
+    background-color: #485256;
+    border-radius: 20px;
+    color: white;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.se {
+    padding: 16px 0;
+    border-bottom: 1px solid #e3e4e5
+}
+
+.company-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.company-info img {
+    width: 50px;
+    height: auto;
+}
+
+.company-info h4 {
+    margin: 0;
+}

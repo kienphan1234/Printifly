@@ -1,0 +1,87 @@
+.button.medium {
+    margin-top: 10px;
+    padding: calc(.5rem - 1px) calc(1.5rem - 1px);
+    height: 40px
+}
+
+.secondary {
+    color: #17262b;
+    font-weight: bold;
+    background-color: #fff;
+
+}
+
+.custom-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup-container {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: none;
+    /* Ẩn ban đầu */
+}
+
+.popup-container.active {
+    display: block;
+    /* Hiển thị khi có class active */
+}
+
+.modal-dialog {
+    margin-left: 65%;
+    padding: 16px 16px 0px;
+    width: 220px;
+    height: 220px;
+}
+
+.btnapp {
+    background-color: #29ab51;
+    color: #fff;
+}
+
+.modal-title {
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.search-bar input {
+
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 25px;
+    padding-left: 30px;
+}
+
+.cu {
+    text-align: center;
+    padding-top: 12px;
+    padding-right: 0px;
+}
+
+.search-icon {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.search-select {
+    margin-top: 10px;
+    padding-right: 0px;
+    padding-left: 2px;
+
+}
+
+.na {
+    border-bottom: 1px solid #e3e4e5;
+    background-color: #fff;
+    display: block;
+}
